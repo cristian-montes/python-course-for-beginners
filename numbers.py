@@ -8,8 +8,8 @@ We have a whole bunch of opperators at our disposal
 + Addition
 - Subtraction
 * Multiplication
-/ Division
-// Floor division
+/ Division - returns a FLOAT
+// Floor division - returns an Integer
 % Modulus (remainder of x / y) | use divmod(a, b) 
 ** Exponentiation (power of) | can also use pow(x , y) instead of x**y
 
@@ -40,7 +40,7 @@ lastly, Python has a handy way of making big int's easier to read
 10 / 4  # classic division returns a float
 10 // 4  # floor division discards the fractional part
 10 % 4 # the % operator returns the remainder of the division
-divmod(10,4)
+divmod(10,4) # (modulus division, floor division)
 
 #Fancy sums
 50 - 5*6 
